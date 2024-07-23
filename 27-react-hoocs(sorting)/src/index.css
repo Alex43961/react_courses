@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+body {
+  text-align: center;
+background-color: #292929;
+  color: #e7e7e7;
+}
+button{
+  font-size: 30px;
+  cursor: pointer;
+  margin: 50px;
+  padding: 30px;
+  background-color: #4cd565;
+  color: #57073f;
+  border: 8px solid #25114e;
+}
+button:hover{
+  background-color: #32124d;
+  color: #b7a8a8;
+}
+
+.active{
+  color: #4cd565;
+  text-decoration: none;
+}
+
+nav{
+  background-color: #b7a8a8;
+  padding: 10px;
+}
+
+nav a{
+  margin: 15px;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 35px;
+}
+
+h1{
+  font-size: 50px;
+  margin: 50px;
+}
+
+.courseLink{
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.courseLink:hover{
+  text-decoration: underline;
+}
